@@ -1,0 +1,12 @@
+Event creation system
+Generate a module named Events for the event creation system.
+Create controller named Events that will handle individual endpoints.
+The event must have properties: id, name, location, duration, number of guests.
+Into the controller create four different methods which are:
+· getAllEventsByLocation() - Method: GET, Used to fetch the list of all products with the same location.
+· getEvent() - Method: GET, Used to retrieve the details of a particular event by
+passing the eventID as a parameter.
+· addEvent() - Method: POST, Used to create and post a new event to the existing event list.
+· deleteEvent() - Method: DELETE, Used to delete a event by passing the eventID as a query parameter.
+The EventsController must use a EventsService that is responsible for storing and retrieving data.
+Use sqllite or other relational database for backend.
